@@ -1,0 +1,39 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+
+
+
+
+
+Analysing:  Percent_correct
+Datasets:   15
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       18-5-9 12:57pm
+
+Dataset                   (1) meta.Bagg | (2) meta. (3) meta. (4) meta.
+------------------------------------------------------------------------
+horse-colic              (100)    84.77 |   84.80     84.67      84.66  
+wisconsin-breast-cancer  (100)    95.88 |   95.72     95.58      95.82  
+breast-cancer            (100)    68.41 |   69.12     68.51      69.53  
+pima_diabetes            (100)    75.86 |   76.23     75.69      75.84  
+heart-statlog            (100)    81.59 |   81.19     81.15      81.04  
+hepatitis                (100)    82.08 |   82.22     81.98      82.34  
+ionosphere               (100)    91.32 |   91.71     91.68      91.51  
+kr-vs-kp                 (100)    99.01 |   99.04     98.98      99.06  
+labor                    (100)    84.93 |   85.33     83.60      84.53  
+mushroom                 (100)   100.00 |   99.92 *   99.92     100.00  
+sick                     (100)    98.67 |   98.63     98.53      98.65  
+sonar                    (100)    76.80 |   76.60     75.50      76.58  
+vote                     (100)    95.68 |   95.45     95.63      95.63  
+credit-rating            (100)    85.14 |   85.41     85.52      85.39  
+german_credit            (100)    74.19 |   74.17     73.86      73.87  
+------------------------------------------------------------------------
+                                (v/ /*) |  (0/14/1)  (0/15/0)   (0/15/0)
+
+Key:
+(1) meta.Bagging '-P 100 -S 1 -num-slots 1 -I 10 -W trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0' -115879962237199696
+(2) meta.C-Bagging '-K 10 -S 1 -num-slots 1 -I 100 -W trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0' -50587962237199704
+(3) meta.C-BaggingHO '-K 10 -S 1 -num-slots 1 -I 100 -W trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0' -50587962237199705
+(4) meta.BaggingRC '-K 10 -S 1 -num-slots 1 -I 100 -W trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0' -50587962237199706
+

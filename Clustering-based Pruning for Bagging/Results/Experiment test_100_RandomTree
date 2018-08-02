@@ -1,0 +1,37 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+
+Analysing:  Percent_correct
+Datasets:   15
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       18-5-28 
+
+Dataset                   (1) meta.Bagg | (2) meta. (3) meta. (4) meta.
+--------------------------------------------------------------------------
+horse-colic               (100)    85.81 |    85.75      85.42      85.48  
+wisconsin-breast-cancer   (100)    96.57 |    96.60      96.40      96.68  
+breast-cancer             (100)    69.32 |    69.74      69.33      69.60  
+pima_diabetes             (100)    76.28 |    76.41      76.09      76.36  
+heart-statlog             (100)    82.81 |    83.11      83.11      83.19  
+hepatitis                 (100)    83.64 |    83.90      83.03      84.03  
+ionosphere                (100)    93.40 |    93.74      93.34      93.74  
+kr-vs-kp                  (100)    99.17 |    99.18      99.06      99.19  
+labor                     (100)    88.67 |    88.93      88.33      89.33  
+mushroom                  (100)   100.00 |   100.00     100.00     100.00  
+sick                      (100)    98.32 |    98.37      98.32      98.36  
+sonar                     (100)    83.68 |    84.06      82.72      83.37  
+vote                      (100)    96.50 |    96.54      96.41      96.59  
+credit-rating             (100)    86.64 |    86.41      86.46      86.58  
+german_credit             (100)    75.82 |    76.18      75.52      76.46  
+--------------------------------------------------------------------------
+                                (v/ /*) |   (0/15/0)   (0/15/0)   (0/15/0)
+
+Key:
+(1) meta.Bagging '-P 100 -S 1 -num-slots 1 -I 100 -W trees.RandomTree -- -K 0 -M 1.0 -V 0.001 -S 1' -115879962237199696
+(2) meta.C-Bagging '-K 100 -S 1 -num-slots 1 -I 1000 -W trees.RandomTree -- -K 0 -M 1.0 -V 0.001 -S 1' -50587962237199704
+(3) meta.C-BaggingHO '-K 100 -S 1 -num-slots 1 -I 1000 -W trees.RandomTree -- -K 0 -M 1.0 -V 0.001 -S 1' -50587962237199705
+(4) meta.BaggingRC '-K 100 -S 1 -num-slots 1 -I 1000 -W trees.RandomTree -- -K 0 -M 1.0 -V 0.001 -S 1' -50587962237199706
+
+
+

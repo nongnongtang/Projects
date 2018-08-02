@@ -1,0 +1,37 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 0 -stddev-width 0 -sig-width 0 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+
+Analysing:  Percent_correct
+Datasets:   15
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       18-5-29 
+
+Dataset                   (1) meta.Bagg | (2) meta. (3) meta. (4) meta.
+------------------------------------------------------------------------
+horse-colic               (100)    85.10 |   85.81     84.72      85.59  
+wisconsin-breast-cancer   (100)    96.37 |   96.28     96.28      96.31  
+breast-cancer             (100)    70.85 |   71.75     71.14      71.82  
+pima_diabetes             (100)    75.52 |   76.02     76.20      76.41  
+heart-statlog             (100)    81.93 |   82.07     81.19      82.00  
+hepatitis                 (100)    82.98 |   82.72     81.69      83.22  
+ionosphere                (100)    92.94 |   92.77     92.60      93.00  
+kr-vs-kp                  (100)    99.44 |   99.44     99.37      99.44  
+labor                     (100)    88.20 |   87.60     87.93      86.87  
+mushroom                  (100)   100.00 |   99.92 *   99.96     100.00  
+sick                      (100)    98.93 |   98.99     98.80      98.97  
+sonar                     (100)    80.04 |   78.70     77.93      79.07  
+vote                      (100)    96.91 |   96.87     96.68      96.73  
+credit-rating             (100)    86.55 |   86.38     85.86      86.38  
+german_credit             (100)    74.92 |   74.26     74.06      74.42  
+------------------------------------------------------------------------
+                                (v/ /*) |  (0/14/1)  (0/15/0)   (0/15/0)
+
+Key:
+(1) meta.Bagging '-P 100 -S 1 -num-slots 1 -I 100 -W trees.J48 -- -U -M 2' -115879962237199696
+(2) meta.C-Bagging '-K 100 -S 1 -num-slots 1 -I 1000 -W trees.J48 -- -U -M 2' -50587962237199704
+(3) meta.C-BaggingHO '-K 100 -S 1 -num-slots 1 -I 1000 -W trees.J48 -- -U -M 2' -50587962237199705
+(4) meta.BaggingRC '-K 100 -S 1 -num-slots 1 -I 1000 -W trees.J48 -- -U -M 2' -50587962237199706
+
+
+
